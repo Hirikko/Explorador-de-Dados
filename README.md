@@ -15,7 +15,7 @@ Quando você roda o projeto em um servidor local (como Live Server, Python, Apac
 
 🚀 Demonstração
 
-# GIF TEMPLATE # 
+<video src="img/preview.webm" width="100%" controls></video>
 
 ✨ Funcionalidades
 🔍 Busca dinâmica em tempo real
@@ -35,23 +35,24 @@ Biblioteca XLSX
 🔧 Opção 1 — Servidor simples com Python
 
 Se você tiver Python instalado, use os seguintes comandos na pasta do portal:
-
+```
 # Python 3
 python -m http.server
 
 http://localhost:8000
-
+```
+```
 🔧 Opção 2 — VS Code (Live Server)
 Instale a extensão Live Server
 Clique com o botão direito no index.html
 Selecione "Open with Live Server"
-
-
+```
+```
 🔧 Opção 3 — Servidor Apache/Nginx
 Coloque os arquivos na pasta do servidor (ex: htdocs ou www)
 Acesse via:
 http://localhost/
-
+```
 💡 Diferenciais
 📊 Processamento no lado do cliente
 ⚡ Leve e rápido
