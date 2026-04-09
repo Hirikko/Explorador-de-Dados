@@ -1,0 +1,161 @@
+﻿/* Estilo básico do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+	background-color: #F8D9E2; /* Rosa claro de fundo */
+    margin: 0;
+    padding: 0;
+    color: #333333; /* Cor de texto escuro para contraste */
+    display: flex;
+    flex-direction: column; /* Coloca os elementos na vertical (barra de pesquisa e tabela) */
+    justify-content: flex-start; /* Garante que os elementos comecem de cima para baixo */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    height: 100%; /* Garante que o corpo ocupe toda a altura da tela */
+    padding: 0px 20px 0px 20px; /* Adiciona espaçamento nas bordas */
+}
+
+.bg {
+  width: 100vw; /* 100% da largura da janela do navegador */
+  height: 222px; /* ou qualquer altura que desejar */
+  background-image: url('../img/banner_title.jpg'); /* Caminho da imagem */
+  background-size: cover; /* Redimensiona a imagem para cobrir toda a tabela */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */	
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Container com conteúdo textual e de input */
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+
+/* Título */
+h1 {
+    font-size: 2rem;
+    color: #F28D9E; /* Rosa médio */
+    text-align: center;
+	text-shadow: 2px 2px 5px rgba(80, 28, 132, 10.1);
+    margin-bottom: 20px;
+}
+
+/* Container da barra de pesquisa */
+.search-container {
+    width: 100%; /* Ocupa 100% da largura */
+    max-width: 600px; /* Limita a largura para telas grandes */
+    display: flex;
+	box-shadow: 6px 6px 40px rgba(240, 192, 208, 10.1);
+    justify-content: center; /* Centraliza o input de pesquisa */
+    margin-bottom: 20px; /* Espaço abaixo da barra de pesquisa */
+}
+
+/* Estilo do input de pesquisa */
+input[type="text"] {
+    width: 100%; /* Faz com que ocupe toda a largura disponível */
+    max-width: 400px; /* Limita a largura em telas grandes */
+    padding: 10px;
+    font-size: 1rem;
+    border: 4px solid #F0C0D0; /* Borda rosa pastel */
+    border-radius: 8px;
+    background-color: #F2F2F2; /* Cinza claro de fundo */
+    color: #C9576A;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #F28D9E; /* Rosa médio ao clicar */
+    background-color: #FFFFFF; /* Fundo branco ao clicar */
+}
+
+/* Estilizando a tabela */
+table {
+    width: 100%; /* A tabela ocupa toda a largura disponível */
+    max-width: 1400px; /* Limita a largura em telas muito grandes */
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #F0C0D0; /* Borda suave entre linhas */
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #F28D9E;
+    color: #FFFFFF; /* Texto branco no cabeçalho */
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+/* Estilo para as linhas da tabela */
+tr:nth-child(even) {
+    background-color: #F9F9F9; /* Cor de fundo suave para linhas pares */
+}
+
+tr:hover {
+    background-color: #F0C0D0; /* Cor de fundo ao passar o mouse */
+    cursor: pointer; /* Cursor de ponteiro para indicar interação */
+}
+
+.ft_bg {
+  width: 100vw;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ft_bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+#rodape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  pointer-events: none;  /* Força ignorar o texto */
+  text-align: center;
+
+}
+/* Estilização para melhorar a legibilidade do texto */
+#rodape h4{
+  color: #F28D9E;
+  background-color: rgba(0, 0, 0, 0.06);           /* Fundo escuro translúcido */
+  padding: 5px 5px;                                /* Espaçamento interno */
+  border-radius: 10px;                             /* Bordas arredondadas */
+  font-weight: bold;                               /* Deixa o texto mais forte */
+  text-align: center;                              /* Centraliza o texto */
+  text-shadow: 2px 2px 5px rgba(80, 28, 132,1.7);  /* Sombra no texto para legibilidade */
+  margin: 0;                                       /* Remove margens padrão do h4 */
+}
+
+#rodape h2{
+  color: #F28D9E;
+  background-color: rgba(0, 0, 0, 0.06);
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(80, 28, 132,1.7);
+  margin: 0;
+}

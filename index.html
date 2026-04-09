@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal De Dados</title>
+	<link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Container de imagem de fundo -->
+	<div class="bg"> 
+		<!-- Container de título e pesquisa -->
+		<div class="header-content">
+			<h1>Dados</h1>
+			<!-- Container da barra de pesquisa -->
+			<div class="search-container">
+        <input type="text" id="search-bar" placeholder="Pesquisar..." onkeyup="searchTable()">
+			</div>
+		</div>
+	</div>
+			
+    <!-- Tabela onde os dados serão exibidos -->
+    <table id="data-table"></table>
+			
+		<div class="ft_bg"> 
+		<img src="img/banner_footer.png" alt="Banner">
+	<footer id="rodape"> <h4>Não somos Apenas Números</h4> </footer>
+		</div>
+  <!-- Inclui a biblioteca SheetJS offline -->
+    <script src="libs/xlsx.full.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
