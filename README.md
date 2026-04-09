@@ -3,7 +3,8 @@
 Aplicação web leve para visualização, busca e filtragem de dados a partir de planilhas locais (.ods ou .xlsx).
 
 Desenvolvido com HTML, CSS e JavaScript puro, o projeto utiliza a biblioteca XLSX para leitura de arquivos diretamente no navegador.
-⚠️ Importante: Devido a restrições do navegador (CORS/segurança), o projeto precisa ser executado em um servidor local (como Apache, Nginx ou servidor embutido). Abrir o arquivo index.html diretamente não funcionará corretamente.
+⚠️ Importante: Devido a restrições do navegador (CORS/segurança), o projeto precisa ser executado em um servidor local (como Apache, Nginx ou servidor embutido).
+Abrir o arquivo index.html diretamente não funcionará corretamente.
 
 ❓ Por que precisa de um servidor local?
 
@@ -15,7 +16,8 @@ Quando você roda o projeto em um servidor local (como Live Server, Python, Apac
 
 🚀 Demonstração
 
-<video src="../img/preview.webm" width="100%" controls></video>
+[preview.webm](https://github.com/user-attachments/assets/e77eb53a-4196-4ce9-991d-dad00ea802d1)
+
 
 ✨ Funcionalidades
 🔍 Busca dinâmica em tempo real
