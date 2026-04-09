@@ -15,7 +15,7 @@ Quando você roda o projeto em um servidor local (como Live Server, Python, Apac
 
 🚀 Demonstração
 
-<video src="img/preview.webm" width="100%" controls></video>
+<video src="../img/preview.webm" width="100%" controls></video>
 
 ✨ Funcionalidades
 🔍 Busca dinâmica em tempo real
